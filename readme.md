@@ -59,8 +59,8 @@ Após todo o processo de modelagem, as tabelas do banco de dados foram criadas u
 
 # Ferramentas:
 
-SDBG: PostgreSQL 17
-IDE/Editor: DBeaver
-Diagramação: LucidChart
+- SDBG: PostgreSQL 17
+- IDE/Editor: DBeaver
+- Diagramação: LucidChart
 
 <img src="postgresql.png" alt = "postgresql" width="50" height="45"> <img src="dbeaver.png" alt = "dbeaver" width="50" height="45"> <img src="lucidchart.png" alt = "lucidchart" width="50" height="45">
