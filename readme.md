@@ -70,4 +70,4 @@ Em breve mais projetos!
 
 Contatos:
 - [Email](mailto:j.marcoscor04@gmail.com)
-- [LinkedIn](linkedin.com/in/jeanmarcoscor)
+- [LinkedIn](https://www.linkedin.com/in/jeanmarcoscor)
