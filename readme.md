@@ -63,4 +63,4 @@ SDBG: PostgreSQL 17
 IDE/Editor: DBeaver
 Diagramação: LucidChart
 
-<img src="postgresql.png" alt = "postgresql" width="50" height="40"> <img src="dbeaver.png" alt = "dbeaver" width="50" height="40"> <img src="lucidchart.png" alt = "lucidchart" width="50" height="40">
+<img src="postgresql.png" alt = "postgresql" width="50" height="45"> <img src="dbeaver.png" alt = "dbeaver" width="50" height="45"> <img src="lucidchart.png" alt = "lucidchart" width="50" height="45">
