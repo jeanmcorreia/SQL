@@ -62,11 +62,11 @@ Após todo o processo, o banco de dados foi criado no DBEAVER e as tabelas do ba
 O objetivo da Linguagem de Manipulação de Dados em um banco de dados é permitir a inserção, atualização, exclusão e recuperação das informações. Os comandos mais comuns são SELECT, INSERT, UPDATE e DELETE.
 
 Neste case:
-Após o processo de DLL, foi inserido alguns dados nas tabelas criadas em seguida consultadas. Script de inserção nas tabelas: [insert.into](./dml/insert-into.sql)
+Após o processo de DLL, foi inserido alguns dados nas tabelas criadas em seguida consultadas. Script de inserção nas tabelas: [insert-into.sql](./dml/insert-into.sql)
 
 ### Ferramentas:
 
-- SDBG: PostgreSQL 17
+- SGBD: PostgreSQL 17
 - IDE/Editor: DBeaver
 - Diagramação: LucidChart
 
