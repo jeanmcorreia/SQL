@@ -1,14 +1,12 @@
-# SQL Queries e Exercícios
+# Projeto Farmácia - BANCO DE DADOS
 
-Este repositório contém práticas, exercícios e projetos relacionados ao aprendizado de SQL. Cada pasta dentro do repositório é dedicado a um tópico ou projeto, com scripts SQL e descrições detalhadas.
+Este projeto consiste na modelagem do banco de dados para gerenciamento de uma farmácia usando SQL. O objetivo é praticar do mini-mundo até a criação do banco de dados. Este projeto foi realizado na faculdade na matéria Projeto de Banco de Dados.
 
 ## Estrutura do Repositório
 
-- /farmacia: Projeto de Banco de Dados para gerenciamento de uma farmácia, com mini-mundo, MER, DER e consultas SQL específicas.
-
-## Projeto Farmácia
-
-Este projeto consiste na modelagem do banco de dados para gerenciamento de uma farmácia usando SQL. O objetivo é praticar do mini-mundo até a criação do banco de dados. Este projeto foi realizado na faculdade na matéria Projeto de Banco de Dados.
+- [/ddl](/ddl): Onde estão arquivos de Linguagem de Definição de Dados.
+- [/dml](/dml): Onde estão os arquivos de Linguagem de Manipulação de Dados.
+- [/img](/img): Arquivos de imagem para o repositório. 
 
 ### Mini-mundo
 
@@ -43,19 +41,28 @@ Cliente faz um pedido, um pedido possui produtos e o funcionário autoriza/execu
 O objetivo da cardinalidade em banco de dados é definir o relacionamento entre as entidades ou tabelas, indicando quantas instâncias de uma entidade se relacionam com quantas instâncias de outra.
 
 Neste case:
-Um cliente pode fazer um ou mais pedidos
-Um funcionário autoriza/executa um ou mais pedidos
-Um pedido pode ter um ou mais produtos
+- Um cliente pode fazer um ou mais pedidos
+- Um funcionário autoriza/executa um ou mais pedidos
+- Um pedido pode ter um ou mais produtos
 
 ### DER
 O objetivo do Diagrama Entidade Relacionamento é fornecer uma maneira clara e concisa de entender a estrutura de um banco de dados.
 
 Neste case:
 
-<img src="/farmacia/der.png" alt = "der">
+<img src="/img/der.png" alt = "der">
 
-### CREATE TABLES
-Após todo o processo de modelagem, as tabelas do banco de dados foram criadas usando SQL. Script de criação das tabelas: [create-tables.sql](./farmacia/create-tables.sql)
+### DLL
+O objetivo da Linguagem de Definição de Dados em um banco de dados é definir a estrutura de dados, é responsável pela criação do banco, tabelas e etc. Os comandos mais comuns são CREATE, ALTER e DROP.
+
+Neste case:
+Após todo o processo, o banco de dados foi criado no DBEAVER e as tabelas do banco de dados foram criadas usando SQL. Script de criação das tabelas: [create-tables.sql](./ddl/create-tables.sql)
+
+### DML
+O objetivo da Linguagem de Manipulação de Dados em um banco de dados é permitir a inserção, atualização, exclusão e recuperação das informações. Os comandos mais comuns são SELECT, INSERT, UPDATE e DELETE.
+
+Neste case:
+Após o processo de DLL, foi inserido alguns dados nas tabelas criadas em seguida consultadas. Script de inserção nas tabelas: [insert.into](./dml/insert-into.sql)
 
 ### Ferramentas:
 
