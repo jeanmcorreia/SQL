@@ -70,7 +70,7 @@ Após o processo de DLL, foi inserido alguns dados nas tabelas criadas em seguid
 - IDE/Editor: DBeaver
 - Diagramação: LucidChart
 
-<img src="postgresql.png" alt = "postgresql" width="50" height="45"> <img src="dbeaver.png" alt = "dbeaver" width="50" height="45"> <img src="lucidchart.png" alt = "lucidchart" width="50" height="45">
+<img src="./img/postgresql.png" alt = "postgresql" width="50" height="45"> <img src="./img/dbeaver.png" alt = "dbeaver" width="50" height="45"> <img src="./img/lucidchart.png" alt = "lucidchart" width="50" height="45">
 
 
 Em breve mais projetos!
