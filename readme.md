@@ -4,8 +4,9 @@ Este projeto consiste na modelagem do banco de dados para gerenciamento de uma f
 
 ## Estrutura do Repositório
 
-- [/ddl](/ddl): Onde estão arquivos de Linguagem de Definição de Dados.
-- [/dml](/dml): Onde estão os arquivos de Linguagem de Manipulação de Dados.
+- [script-ddl.sql](/script-ddl.sql): Onde estão scripts de Linguagem de Definição de Dados.
+- [script-dml.sql](/script-dml.sql): Onde estão os scripts de Linguagem de Manipulação de Dados.
+- [script-dql.sql](/script-dql.sql): Scripts de Linguagem de Consulta de Dados.
 - [/img](/img): Arquivos de imagem para o repositório. 
 
 ### Mini-mundo
@@ -56,13 +57,19 @@ Neste case:
 O objetivo da Linguagem de Definição de Dados em um banco de dados é definir a estrutura de dados, é responsável pela criação do banco, tabelas e etc. Os comandos mais comuns são CREATE, ALTER e DROP.
 
 Neste case:
-Após todo o processo, o banco de dados foi criado no DBEAVER e as tabelas do banco de dados foram criadas usando SQL. Script de criação das tabelas: [create-tables.sql](./ddl/create-tables.sql)
+Após todo o processo, o banco de dados foi criado no DBEAVER e as tabelas do banco de dados foram criadas usando SQL. Script de criação das tabelas: [script-ddl.sql](/script-ddl.sql)
 
 ### DML
-O objetivo da Linguagem de Manipulação de Dados em um banco de dados é permitir a inserção, atualização, exclusão e recuperação das informações. Os comandos mais comuns são SELECT, INSERT, UPDATE e DELETE.
+O objetivo da Linguagem de Manipulação de Dados em um banco de dados é permitir a inserção, atualização, exclusão e recuperação das informações. Os comandos mais comuns são INSERT, UPDATE e DELETE.
 
 Neste case:
-Após o processo de DLL, foi inserido alguns dados nas tabelas criadas em seguida consultadas. Script de inserção nas tabelas: [insert-into.sql](./dml/insert-into.sql)
+Após o processo de DLL, foi inserido alguns dados nas tabelas criadas em seguida consultadas. Script de inserção nas tabelas: [script-dml.sql](/script-dml.sql)
+
+### DQL
+O objetivo da Linguagem de Consultas de Dados em um banco de dados é obter dados específicos com base o critério definidos na consulta. O comando mais comum é o SELECT.
+
+Neste case:
+Após o processo de DML, foi consultadas a tabelas criadas e manipuladas: [script-dql.sql](/script-dql.sql)
 
 ### Ferramentas:
 

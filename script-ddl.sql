@@ -1,6 +1,5 @@
 -- this is sql
 
--- criando a tabela cliente e excluindo se existir
 drop table cliente cascade 
 create table cliente 
 ( 
@@ -10,9 +9,9 @@ cpfCliente varchar,
 enderecoCliente text, 
 celularCliente varchar, 
 dataCadastro date 
-); 
+);
+alter table cliente alter COLUMN cpfCliente char;
 
--- criando a tabela funcionário e excluindo se existir
 drop table funcionario cascade 
 create table funcionario 
 ( 
@@ -23,8 +22,8 @@ enderecoFuncionario text,
 celularFuncionario varchar, 
 admissao date 
 );
+alter table funcionario alter COLUMN cpfFuncionario char;
 
--- criando a tabela produtos e excluindo se existir
 drop table produtos cascade 
 create table produtos 
 ( 
@@ -34,9 +33,9 @@ preco float not null,
 tarja text not null, 
 quantidade int not null, 
 validade date 
-); 
+);
+alter table produtos alter COLUMN tarja varchar(60);
 
--- criando a tabela pedidos e excluindo se existir
 drop table pedidos cascade 
 create table pedidos 
 ( 
@@ -48,3 +47,6 @@ quantidade int not null,
 formaPagamento text not null, 
 valorTotal float not null, 
 dataPedido date
+);
+
+alter table pedidos alter COLUMN formaPagamento varchar(60);
